@@ -1,0 +1,101 @@
+#Heading {
+    margin-top: 1em;
+    font-size: 4.5em;
+    font-family: 'Arial', Times, serif;
+    font-weight:bold;
+}.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 600px;
+    height: 550px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    opacity: .85;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    height: 100vh;
+}
+div{
+    margin: 1em;
+}
+#uName{
+    margin-right: 4.5em;
+    font-family: 'Arial', Times, serif;
+    font-size: larger;
+}
+#pass{
+    margin-right: 5.3em;
+    font-family: 'Arial', Times, serif;
+    font-size: larger;
+}
+#BT{
+    cursor: pointer;
+    margin-top: 2em;
+    width: 400px;
+    height: 60px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'Poppins', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    background-image: linear-gradient(90deg, #e73c7e, #43b4ff);
+    background-position: left;
+    background-size: 400%;
+    transition: background-position 1s;
+}
+#BT:hover{
+    background-position: right;
+}
+#uNameV{
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-weight:normal;
+}   
+#passV{
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-top: .7em;
+    padding-bottom: .3em;
+    font-weight:normal;
+}
+.alertcontg{
+    background-color: lightgreen;
+    width: 30em;
+    border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  text-align: center;
+}
+.alertcontr{
+    background-color: lightcoral;
+    width: 13em;
+    border-radius: 25px;
+  border: 2px solid red;
+  padding: 20px;
+  text-align: center;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a, a:visited {
+    color: blue;
+}

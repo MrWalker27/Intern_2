@@ -1,0 +1,140 @@
+.uname2{
+    width: 15em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  .mail2{
+    width: 17em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  .dob2{
+    width: 9em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  #BT{
+    cursor: pointer;
+    margin-top: 2em;
+    width: 5.5em;
+    height: 2.25em;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'Poppins', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    background-image: linear-gradient(90deg, #43b4ff ,#e73c7e );
+    background-position: left;
+    background-size: 400%;
+    transition: background-position 1s;
+    margin-top: -4.3em;
+    margin-left: 40em;
+}
+#BT:hover{
+    background-position: right;
+}
+.alertcontg{
+  background-color: lightgreen;
+  width: 30em;
+  border-radius: 25px;
+border: 2px solid #73AD21;
+padding: 20px;
+
+}
+.alertcontr{
+  position: absolute;
+  background-color: lightcoral;
+  width: 20em;
+  border-radius: 25px;
+border: 2px solid red;
+padding: 20px;
+margin-top: -28em;
+}
+.Containerp {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 60em;
+    /* height: 25.1em; */
+    background-color: rgb(238, 241, 240);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px grey;
+}
+.role2{
+  width: 12em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16.5px;
+  text-align: center;
+}
+.info2{
+    
+  align-items: center;
+  align-content: center;
+  margin-left: -24em;
+  /* margin-top: 50px; */
+  width: 30em;
+  /* height: 25.1em; */
+  /* background-color: red; */
+}
+.alertcontg1{
+  position: absolute;
+  background-color: lightgreen;
+  width: 15.5em;
+  border-radius: 25px;
+border: 2px solid #73AD21;
+padding: 20px;
+margin-top: -27em;
+text-align: center;
+
+}
+.alertcontr1{
+  position: absolute;
+  background-color: lightcoral;
+  width: 20em;
+  border-radius: 25px;
+border: 2px solid red;
+padding: 20px;
+margin-top: -28em;
+text-align: center;
+}
+#BT1{
+  cursor: pointer;
+  margin-top: 2em;
+  width: 5.5em;
+  height: 2.25em;
+  border-style: none;
+  border-radius: 10px;
+  font-family: 'Poppins', Times, serif;
+  font-size: large;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+  background-image: linear-gradient(90deg, #43b4ff ,#e73c7e );
+  background-position: left;
+  background-size: 400%;
+  transition: background-position 1s;
+  margin-top: -4.3em;
+  margin-left: 30em;
+}
+#BT1:hover{
+  background-position: right;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a, a:visited {
+  color: blue;
+}
